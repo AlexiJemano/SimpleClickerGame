@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importing all the need .CSS files into the project-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>SimpleClickerGame</title> 
+</head>
+<body>
+    <!-- Header Section: The thinks user sees at the top og there screen -->
+    <header style="display: flex; justify-content: space-between;">
+        <h3 id="clickWorthText" style="text-align: left;">1 Click = 1$</h3>
+        <h3 id="balanceText" style="text-align: right;">Balance: 0$</h3>
+    </header>
+    <br><br><br> <!--Not the best decesion but, the buttonClicker needs some space from the header-->
+    
+    <button id="buttonClicker" class="btn btn-primary buttonClicker">Click Me!</button> <!--Main Button (This whole site exits just beacouse of this button, if this button will dessaper the site will be useless just as the human life.)-->
+    <!--Shop Section: There can be found all possible upgrades that user can do-->
+    <fieldset>
+        <legend>Shop</legend>
+        <p>Buy different updrates to become better</p>
+        <div class="moreByClick">
+            <h3>Upgrade Clicker</h3>
+            <p>Get more money by evrey click you do</p>
+            <button id="moreByClickID" class="btn btn-secondary">Buy - 10$</button>
+        </div>
+        <div class="moneyAfk">
+            <h3>Money AFK</h3>
+            <p>Get money by doing nothing</p>
+            <button id="moneyAfkID" class="btn btn-secondary">Buy - 100$</button>
+        </div>
+        <div class="upgMoneyAfk">
+            <h3>Upgrade Money AFK</h3>
+            <p>Get money by doing nothing</p>
+            <button id="upgMoneyAfkID" class="btn btn-secondary">Buy - 50$</button>
+        </div>
+    </div>
+    </fieldset>
+    
+
+    <!-- Don't write anything bellow! 
+    Importing needed .JS files into the project-->
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.buttonClicker {
+    display: block; 
+    margin: 0 auto;
+    padding: 15px 30px; 
+    font-size: 18px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    position: relative; /* Enable absolute positioning */
+}
+
+.shop {
+    position: absolute; /* Positioning the shop */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    text-align: center;
+    background-color: #f8f9fa; /* Optional background color */
+    padding: 20px; /* Optional padding */
+}
+.moreByClick {
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px; /* Fixed width for all power-ups */
+}
+.moneyAfk {
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px; /* Fixed width for all power-ups */
+}
+.upgMoneyAfk {
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px; /* Fixed width for all power-ups */
+}
